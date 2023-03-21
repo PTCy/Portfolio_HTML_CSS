@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-align: left;
+    background-color: white;
+}
+/*=====================  Header ===============*/
+.about-img{
+    width: 40%;
+    
+}
+.btn{
+    padding: 10px 50px;
+    border-radius: 100px;
+
+}
+.btn_head{
+    background-color: black;
+    border: 2.4px solid white;
+    font-size: 20px;
+    color: white;
+}
+.btn_head:hover{
+    color: #FFBF00;
+    border-color: #FFBF00;
+
+}
+/*.typed-cursor{
+    font-size: 45px;
+    color: w;
+}*/
+.position-absolute{
+    font-weight: 700;
+}
+.h_about{
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+}
+@media (min-width: 576px) and (max-width: 992px){
+    .about-img{
+        order: 1;
+        width: 100%;
+    }
+    .header_about{
+        text-align: center;
+        order: 2;
+    }
+    .btn_head{
+        margin: 0 auto;
+    }
+
+}
+@media (max-width: 576px) {
+    .about-img{
+        order: 1;
+        width: 100%;
+    }
+    .header_about{
+        text-align: center;
+        order: 2;
+    }
+    .btn_head{
+        margin: 0 auto;
+    }
+  }
+/*==========NavBar===============*/
+.navbar-light{
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 5px 10px;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    outline: none;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #FFBF00;
+}
+.logo_text{
+    font-weight: 700;
+}
+
+/*================= Skill==================================*/
+.skill_manu{
+    background-color: black;
+}
+.name_bar{
+    color: white;
+}
+.progress {
+    border-radius: 10px;
+}
+.progress .progress-bar {
+    border-radius: 10px;
+}
+.h_skill{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+/*==================================================================*/
+/*==================== Education ========================================*/
+.h_education{
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+}
+.img_school{
+    width: 20%;
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .img_school{
+        width: 100%;
+    }
+    .img_univer{
+        height: 115px;
+    }
+}
+@media (max-width: 576px){
+    .img_school{
+        width: 100%;
+    }
+    .img_univer{
+        height: 115px;
+    }
+}
+/*====================================================================*/
+
+/*====================== Project =====================================*/
+.card-header:first-child{
+    padding: 2px 0;
+}
+.h_project{
+    color: black;
+    font-weight: 900;
+    font-size: 50px;
+}
+.img_project{
+    height: 200px;
+}
+.btn_project{
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn_project:hover{
+    background-color: #FFA500;
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .col_project{
+        margin-bottom: 10px;
+    }
+
+}
+@media (max-width: 576px){
+    .col_project{
+        margin-bottom: 10px;
+    }
+}
+
+/*============= contact ===============================================*/
+.contact_bg{
+    background-color: black;
+}
+.h_contact{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+
+}
+.btn_send_message{
+    font-size: 20px;
+}
+.btn_send_message:hover{
+    color: white;
+}
+@media (max-width: 575px){
+    .form_email{
+        margin-top: 10px;
+    }
+}
+
+/*========================================================================*/
+
+/*========================== footer ======================================*/
+.footer_bg{
+    background-color: #FFBF00;
+}
+.btn-social{
+    background-color: white;
+    font-size: 20px;
+
+}
+.btn-social:hover{
+    background-color: rgb(219, 219, 219);
+}
+/*========================================================================*/
+@media (max-width: 768px){
+    body{
+        font-size: 14px;
+    }
+    .res_titel{
+        font-size: 35px;
+    }
+
+}
+
